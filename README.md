@@ -1,4 +1,4 @@
-dp
+DesignPatterns Examples
 ==
 
-Strategy
+1.- Strategy Pattern
