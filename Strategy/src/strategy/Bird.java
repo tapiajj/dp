@@ -9,10 +9,15 @@ package strategy;
  * @author cisco
  */
 public class Bird extends Animal {
-
     public Bird() {
         super();
+        setHeight(23);
+        setWeight(10);
+        setColor("yellow");
+        flyingtype= new canFly();
+        setSound("pio");
     }
-    public void action() {
+    public void sings() {
+        System.out.println(getSound());
     }
 }

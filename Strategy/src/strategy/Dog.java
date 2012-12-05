@@ -11,11 +11,12 @@ package strategy;
 public class Dog extends Animal {
 
     public Dog() {
-
         super();
-
+    flyingtype= new cantFly();    
     }
 
-    public void action() {
+    public void run() {
+        System.out.println("I'm running!");
     }
+    
 }

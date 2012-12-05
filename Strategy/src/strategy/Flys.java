@@ -12,3 +12,13 @@ package strategy;
 public interface Flys {
     String fly();
 }
+class canFly implements Flys{
+    public String fly(){
+    return "I'm high!";}
+
+}
+class cantFly implements Flys{
+    public String fly(){
+    return "I can't fly";
+    }
+}
